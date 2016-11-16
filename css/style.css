@@ -1,0 +1,54 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.bg{
+  position: absolute;
+  background-repeat: no-repeat;
+  background-image: url("bg.png");
+  height: 700px;
+  width: 1920px;
+  background-size: cover;
+}
+
+.mario {
+  left: 60px;
+  top: 570px;
+  width: 50px;
+  height: 50px;
+  background-image: url("mario2.png" );
+  background-size: contain;
+  position: relative;
+  float:left;
+  animation: mario 4s infinite 2s linear;
+
+  animation-name: mario;
+  animation-duration: 4s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes mario {
+  0%  { left:60px; top:570px;}
+  20% { left:800px; top:570px;}
+  30% { left:800px; top:470px;}
+  40% { left:800px; top:570px;}
+  55% { left:1200px; top:570px;}
+  65% { left:1400px; top:400px;}
+  75% { left:1600px; top:570px;}
+  100% { left:1920px; top:350px;
+}
+/* Standard syntax */
+@keyframes mario {
+  0%  { left:60px; top:570px;}
+  20% { left:800px; top:570px;}
+  30% { left:800px; top:470px;}
+  40% { left:800px; top:570px;}
+  55% { left:1200px; top:570px;}
+  65% { left:1400px; top:400px;}
+  75% { left:1600px; top:570px;}
+  100% { left:1920px; top:350px;
+}
