@@ -30,7 +30,6 @@
   animation-timing-function: linear;
 }
 
-/* Safari 4.0 - 8.0 */
 @-webkit-keyframes mario {
   0%  { left:60px; top:570px;}
   20% { left:800px; top:570px;}
@@ -41,7 +40,7 @@
   75% { left:1600px; top:570px;}
   100% { left:1920px; top:350px;
 }
-/* Standard syntax */
+
 @keyframes mario {
   0%  { left:60px; top:570px;}
   20% { left:800px; top:570px;}
